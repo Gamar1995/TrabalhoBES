@@ -259,36 +259,32 @@ h2::after {
 }
 
 .rodape-principal {
-    background-color: var(--dark-color);
-    color: #e2e8f0;
-    font-size: 14px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
-    padding: 40px 0 20px 0;
-    margin-top: 80px;
+    padding: 20px 0;
+    margin-top: 50px;
 }
 
 .rodape-conteudo p {
-    margin: 0 0 15px 0;
-    color: white;
-    font-size: 16px;
+    margin: 0 0 10px 0;
 }
 
 .rodape-redes a {
-    color: #94a3b8;
+    color: white;
     text-decoration: none;
-    margin: 0 10px;
-    font-weight: 600;
-    transition: var(--transition);
+    margin: 0 5px;
 }
 
 .rodape-redes a:hover {
-    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .rodape-direitos {
-    margin-top: 30px;
-    font-size: 12px;
-    color: #94a3b8;
-    border-top: 1px solid #334155;
-    padding-top: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 10px;
 }
