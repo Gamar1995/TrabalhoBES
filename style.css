@@ -134,6 +134,21 @@ h2 {
 .tabela-produtos td {
     padding: 12px;
     border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.tabela-produtos td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-produto {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
 .tabela-horarios {
